@@ -1,5 +1,5 @@
     export const LOGO =
-    "https://thumbs.dreamstime.com/b/ott-logo-ott-letter-ott-letter-logo-design-initials-ott-logo-linked-circle-uppercase-monogram-logo-ott-typography-397918329.jpg"
+    "https://www.shareicon.net/data/64x64/2015/09/05/96561_file_512x512.png"
 
     export const USER_AVATAR =
     "https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp"

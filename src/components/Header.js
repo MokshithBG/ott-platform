@@ -42,17 +42,17 @@ const Header = () => {
     },[])
 
   return (
-    <div className='absolute z-30 px-8 py-2 bg-gradient-to-b  from-black w-screen flex justify-between'>
-        <img className="mx-auto w-44 md:mx-0"
+    <div className='absolute z-30 px-8 bg-gradient-to-b  from-black w-screen flex justify-between'>
+        <img className="mx-auto w-44 h-36 md:mx-0"
         src={LOGO}
         alt="logo" />
-        {user && <div className="flex p-2 justify-between">
+        {user && <div className="flex items-center justify-between">
           <img
           className="w-12 h-12 m-4"
           src={USER_AVATAR}
           alt="profile pic"></img>
           <p className="m-4 p-3 font-bold text-white">{user?.displayName}</p>
-          <button onClick={handleSignOut} className="m-4 text-white font-bold cursor-pointer">(Sign out)</button>
+          <button onClick={handleSignOut} className="m-4 px-4 py-2 text-white font-bold cursor-pointer">(Sign out)</button>
         </div>}
     </div>
   )
