@@ -4,6 +4,9 @@ import MovieList from "./MovieList";
 const SecondaryContainer = () => {
   const movies = useSelector((store)=>store?.movies);
 
+  const { nowPlayingMovies, popularMovies } = movies || {};
+  if (!movies) return null;
+
   return (
     <div className="bg-black">
       <div className="mt-0 md:-mt-52 pl-4 md:pl-12 relative z-20">
