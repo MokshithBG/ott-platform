@@ -39,7 +39,7 @@ const Header = () => {
     navigate("/");
   }
 });
-    },[])
+    },[dispatch, navigate])
 
   return (
     <div className='absolute z-30 px-8 bg-gradient-to-b  from-black w-screen flex justify-between'>
